@@ -1,0 +1,1542 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "Times New Roman"
+\font_sans "default" "Times New Roman"
+\font_typewriter "default" "Times New Roman"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset Formula $IML$
+\end_inset
+
+ תרגיל
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+,
+\begin_inset Newline newline
+\end_inset
+
+מגיש: אבי כוגן, ת.ז:
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+205417710
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+h_{D}(x) & =\underset{y\in\{\pm1\}}{argmax}Pr(y|x)\overset{Bayes\ theorem}{=}\underset{y\in\{\pm1\}}{argmax}\frac{Pr(x|y)Pr(y)}{Pr(x)}\overset{*}{=}\\
+ & \underset{y\in\{\pm1\}}{argmax}Pr(x|y)Pr(y)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+* מתקיים 
+\begin_inset Formula $Pr(x)$
+\end_inset
+
+ לא תלוי ב-
+\begin_inset Formula $y$
+\end_inset
+
+ וחיובי )
+\begin_inset Formula $x$
+\end_inset
+
+ יצא לכן ההסתברות עליו אינה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+(, לכן מקסימום על המונה בלבד ימקסם את הביטוי.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+h_{D}(x) & =Pr(x|y)Pr(y)=\\
+ & =\underset{y\in\{\pm1\}}{argmax}\frac{1}{\sqrt{(2\pi)^{d}|\Sigma|}}exp\{-\frac{1}{2}(x-\mu_{y})^{T}\Sigma^{-1}(x-\mu_{y})\}Pr(y)\\
+ & \overset{*}{=}\underset{y\in\{\pm1\}}{argmax}ln(\frac{1}{\sqrt{(2\pi)^{d}|\Sigma|}}exp\{-\frac{1}{2}(x-\mu_{y})^{T}\Sigma^{-1}(x-\mu_{y})\}Pr(y))=\\
+ & =\underset{y\in\{\pm1\}}{argmax}-\frac{1}{2}(x-\mu_{y})^{T}\Sigma^{-1}(x-\mu_{y})+ln(Pr(y))=\\
+ & \overset{**}{=}\underset{y\in\{\pm1\}}{argmax}-\frac{1}{2}x^{T}\Sigma^{-1}x+\frac{1}{2}x^{T}\Sigma^{-1}\mu_{y}+\frac{1}{2}\mu_{y}^{T}\Sigma^{-1}x-\frac{1}{2}\mu_{y}^{T}\Sigma^{-1}\mu_{y}+ln(Pr(y)=\\
+ & \overset{\triangle}{=}\underset{y\in\{\pm1\}}{argmax}x^{T}\Sigma^{-1}\mu_{y}-\frac{1}{2}\mu_{y}^{T}\Sigma^{-1}\mu_{y}+ln(Pr(y)=\underset{y\in\{\pm1\}}{argmax}\delta_{y}(x)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+* 
+\begin_inset Formula $ln$
+\end_inset
+
+ פונק' מונוטונית עולה, לכן מקסימום על הביטוי שווה למקסימום על ה
+\begin_inset Formula $ln$
+\end_inset
+
+ של הביטוי.
+\end_layout
+
+\begin_layout Standard
+** 
+\begin_inset Formula $ln(\frac{1}{\sqrt{(2\pi)^{d}|\Sigma|}})$
+\end_inset
+
+ לא תלוי ב-
+\begin_inset Formula $y$
+\end_inset
+
+ ולכן ניתן
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\triangle$
+\end_inset
+
+ 
+\begin_inset Formula $-\frac{1}{2}x^{T}\Sigma^{-1}x$
+\end_inset
+
+ לא תלוי ב-
+\begin_inset Formula $y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Standard
+נשתנש באומדי 
+\begin_inset Formula $MLE$
+\end_inset
+
+ לתוחלות ולשונות.
+\end_layout
+
+\begin_layout Standard
+נחשב את 
+\begin_inset Formula $\hat{\mu}_{+1},\hat{\mu}_{-1},\hat{\Sigma}$
+\end_inset
+
+ : נחפש 
+\begin_inset Formula $\underset{}{argmax}L(\hat{\mu}_{+1},\hat{\mu}_{-1},\hat{\Sigma}|x_{1}/y_{1},..,x_{m}/y_{m})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+L(\hat{\mu}_{+1},\hat{\mu}_{-1},\hat{\Sigma}|x_{1}/y_{1},..,x_{m}/y_{m}) & =\stackrel[i=1]{m}{\Pi}P((x_{i}/y_{i})/\mu_{+1},\mu_{-1},\Sigma)=\\
+=\stackrel[i=1]{k}{\Pi}P((x_{i}/y_{i}=1)/\mu_{+1},\Sigma)\cdot & \stackrel[j=k]{m}{\Pi}P((x_{i}/y_{i}=-1)/\mu_{-1},\Sigma)=\\
+=(\frac{1}{\sqrt{(2\pi)^{d}|\Sigma|}})^{m}exp\{\stackrel[i=1]{k}{\Sigma}-\frac{1}{2}(x_{i}-\mu_{+1})^{T}\Sigma^{-1}(x_{i}-\mu_{+1})\} & \cdot exp\{\stackrel[j=k+1]{m}{\Sigma}-\frac{1}{2}(x_{j}-\mu_{-1})^{T}\Sigma^{-1}(x_{j}-\mu_{-1})\}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מתקיים: 
+\begin_inset Formula $\underset{}{argmax}\ L(\hat{\mu}_{+1},\hat{\mu}_{-1},\hat{\Sigma}|x_{1}/y_{1},..,x_{m}/y_{m})=\underset{}{argmax}\ ln(L(\hat{\mu}_{+1},\hat{\mu}_{-1},\hat{\Sigma}|x_{1}/y_{1},..,x_{m}/y_{m}))$
+\end_inset
+
+ , 
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $ln(L(\hat{\mu}_{+1},\hat{\mu}_{-1},\hat{\Sigma}|x_{1}/y_{1},..,x_{m}/y_{m}))=l(\hat{\mu}_{+1},\hat{\mu}_{-1},\hat{\Sigma}|x_{1}/y_{1},..,x_{m}/y_{m}))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+l(\hat{\mu}_{+1},\hat{\mu}_{-1},\hat{\Sigma}|x_{1}/y_{1},..,x_{m}/y_{m}) & =\\
+ln((\frac{1}{\sqrt{(2\pi)^{d}|\Sigma|}})^{m})+\stackrel[i=1]{k}{\Sigma}-\frac{1}{2}((x_{i}/y=1)-\mu_{+1})^{T}\Sigma^{-1}((x_{i}/y=1)-\mu_{+1}) & +\\
+\stackrel[j=k+1]{m}{\Sigma}-\frac{1}{2}((x_{j}/y=-1)-\mu_{-1})^{T}\Sigma^{-1}((x_{j}/y=-1)-\mu_{-1})
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נקבל את האומדים באמצעות גזירה והשוואה ל-
+\numeric on
+0
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\hat{\mu}_{+1}=\frac{\partial l}{\partial\mu_{+1}} & =\frac{\partial}{\partial\mu_{+1}}(-\frac{1}{2}\stackrel[i=1]{k}{\Sigma}((x_{i}/y=1)^{T}\Sigma^{-1}(x_{i}/y=1)-\\
+ & (x_{i}/y=1)^{T}\Sigma^{-1}\mu_{+1}-\mu_{+1}\Sigma^{-1}(x_{i}/y=1)+\mu_{+1}^{T}\Sigma^{-1}\mu_{+1})=\\
+\\
+ & =\frac{\partial}{\partial\mu_{+1}}\stackrel[i=1]{k}{\Sigma}(-\frac{1}{2}(x_{i}/y=1)^{T}\Sigma^{-1}(x_{i}/y=1)+(x_{i}/y=1)^{T}\Sigma^{-1}\mu_{+1}-\frac{1}{2}\mu_{+1}^{T}\Sigma^{-1}\mu_{+1}))=\\
+ & =\stackrel[i=1]{k}{\Sigma}((x_{i}/y=1)^{T}\Sigma^{-1}-\mu_{+1}^{T}\Sigma^{-1})
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשווה ל-
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+למציאת האומד: 
+\begin_inset Formula 
+\begin{align*}
+\stackrel[i=1]{k}{\Sigma}((x_{i}/y=1)^{T}\Sigma^{-1}-\mu_{+1}^{T}\Sigma^{-1}= & 0\Leftrightarrow\\
+\stackrel[i=1]{k}{\Sigma}((x_{i}/y=1)^{T}-\mu_{+1}^{T})= & 0\Leftrightarrow\\
+\stackrel[i=1]{k}{\Sigma}(x_{i}/y=1)= & k\mu_{+1}\Leftrightarrow\\
+\frac{1}{k}\stackrel[i=1]{k}{\Sigma}(x_{i}/y=1)= & \mu_{+1}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן האומד 
+\begin_inset Formula $\hat{\mu}_{+1}=\frac{1}{k}\stackrel[i=1]{k}{\Sigma}(x_{i}/y=1)=\overline{(X/y=1)}\in R^{d}$
+\end_inset
+
+ הוא 
+\begin_inset Formula $MLE$
+\end_inset
+
+ של 
+\begin_inset Formula $\mu_{+1}$
+\end_inset
+
+.
+ כאשר 
+\begin_inset Formula $d$
+\end_inset
+
+ הוא מימד הפיצ'רים.
+\end_layout
+
+\begin_layout Standard
+באופן דומה נקבל ש-
+\begin_inset Formula $\hat{\mu}_{-1}=\frac{1}{m-k}\stackrel[i=k]{m}{\Sigma}(x_{i}/y=-1)=\overline{(X/y=-1)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ניתן לסכם: 
+\begin_inset Formula $\text{\ensuremath{\hat{\mu}_{\underset{y\in\{\pm1\}}{y}}=\frac{\stackrel[i=1]{m}{\Sigma}x_{i}\mathbb{I}\{y_{i}=y\}}{\stackrel[i=1]{m}{\Sigma}\mathbb{I}\{y_{i}=y\}}}}$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\mathbb{I}$
+\end_inset
+
+ פונק' אינדיקטור.
+\end_layout
+
+\begin_layout Standard
+נמצא את 
+\begin_inset Formula $\hat{\Sigma}$
+\end_inset
+
+ באמצעות גזירה לפי 
+\begin_inset Formula $\Sigma^{-1}$
+\end_inset
+
+ נציב את האומדים שממקסמים את 
+\begin_inset Formula $\mu_{+1},\mu_{-1}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\hat{\Sigma}^{-1}=\frac{\partial l}{\partial\Sigma^{-1}} & (-\frac{dm}{2}ln(2\pi)-\frac{m}{2}ln(|\Sigma|)-\frac{1}{2}\stackrel[i=1]{k}{\Sigma}((x_{i}/y=1)-\overline{(X/y=1)})^{T}\Sigma^{-1}((x_{i}/y=1)-\overline{(X/y=1)})+\\
+ & \stackrel[j=k+1]{m}{\Sigma}-\frac{1}{2}((x_{j}/y=-1)-\overline{(X/y=-1)})^{T}\Sigma^{-1}((x_{j}/y=-1)-\overline{(X/y=-1)}))\\
+ & \overset{*}{=}\frac{m}{2}\Sigma+\frac{\partial l}{\partial\Sigma^{-1}}[-\frac{1}{2}\stackrel[i=1]{k}{\Sigma}((x_{i}/y=1)-\overline{(X/y=1)})^{T}\Sigma^{-1}((x_{i}/y=1)-\overline{(X/y=1)})+\\
+ & -\frac{1}{2}\stackrel[j=k]{m}{\Sigma}((x_{j}/y=-1)-\overline{(X/y=-1)})^{T}\Sigma^{-1}((x_{j}/y=-1)-\overline{(X/y=-1)}))]\\
+ & \overset{**}{=}\frac{m}{2}\Sigma-\frac{1}{2}\stackrel[i=1]{k}{\Sigma}((x_{i}/y=1)-\overline{(X/y=1)})((x_{i}/y=1)-\overline{(X/y=1)})^{T}+\\
+ & -\frac{1}{2}\stackrel[j=k]{m}{\Sigma}((x_{j}/y=-1)-\overline{(X/y=-1)})((x_{j}/y=-1)-\overline{(X/y=-1)})^{T})
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+* מתקיים 
+\begin_inset Formula $|\Sigma|=|\Sigma^{-1}|^{-1}$
+\end_inset
+
+ לכן 
+\begin_inset Formula $ln(|\Sigma|)=-ln(|\Sigma^{-1}|)$
+\end_inset
+
+, בנוסף 
+\begin_inset Formula $\frac{\partial l}{\partial\Sigma^{-1}}ln(|\Sigma|)=\Sigma^{-T}$
+\end_inset
+
+ לכן נקבל 
+\begin_inset Formula $\frac{\partial l}{\partial\Sigma^{-1}}ln(|\Sigma|)=\frac{\partial l}{\partial\Sigma^{-1}}-ln(|\Sigma^{-1}|)=-\Sigma^{T}\overset{\Sigma\ Symmetric}{=}-\Sigma$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+** מכיוון ש-
+\begin_inset Formula $x^{T}Ax$
+\end_inset
+
+ הוא סקלר נוכל לקחת את ה
+\begin_inset Formula $tr$
+\end_inset
+
+ שלו ומתקיים 
+\begin_inset Formula $\frac{\partial}{\partial A}x^{T}Ax=\frac{\partial}{\partial A}tr[x^{T}Ax]=\frac{\partial}{\partial A}tr[Axx^{T}]=(xx^{T})^{T}=xx^{T}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשווה ל-
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+למציאת האומד:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\frac{m}{2}\Sigma-\frac{1}{2}\stackrel[i=1]{k}{\Sigma}((x_{i}/y=1)-\overline{(X/y=1)})((x_{i}/y=1)-\overline{(X/y=1)})^{T}+\\
+-\frac{1}{2}\stackrel[j=k]{m}{\Sigma}((x_{j}/y=-1)-\overline{(X/y=-1)})((x_{j}/y=-1)-\overline{(X/y=-1)})^{T}) & =0\Leftrightarrow\\
+\hat{\Sigma}=\frac{1}{m}\stackrel[i=1]{k}{\Sigma}[(x_{i}/y=1)-\overline{(X/y=1)})((x_{i}/y=1)-\overline{(X/y=1)})^{T}+\\
++\stackrel[j=k]{m}{\Sigma}((x_{j}/y=-1)-\overline{(X/y=-1)})((x_{j}/y=-1)-\overline{(X/y=-1)})^{T})]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיבלנו: 
+\begin_inset Formula $\hat{\Sigma}=\frac{1}{m}\underset{y\in\{\pm1\}}{\Sigma}\underset{i\in[m]\ s.t\ y_{i}=y}{\Sigma}(x_{i}-\overline{\mu_{y}})(x_{i}-\overline{\mu_{y}})^{T}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ראינו בתרגול שמתקיים 
+\begin_inset Formula $\underset{y\in\{\pm1\}}{\hat{Pr}}(y)=\frac{1}{m}\stackrel[i=1]{m}{\Sigma}\mathbb{I}\{y_{i}=y\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Standard
+הייתי מגדיר את הטעות החמורה יותר כטעות בה סיווגתי מייל שאינו ספאם כ-ספאם,
+ מכיוון שאיבדתי מייל.
+\end_layout
+
+\begin_layout Standard
+בהתאם נסווג מייל ספאם כ:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\begin_inset Formula $Positive$
+\end_inset
+
+, מייל לא ספאם כ:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+-1
+\numeric off
+, 
+\begin_inset Formula $Negative$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+טעות מסוג ראשון, חמורה יותר - 
+\begin_inset Formula $FP$
+\end_inset
+
+ - סיווגתי מייל שאינו ספאם כ-ספאם.
+ )כלומר איבדתי מייל אמיתי(.
+\end_layout
+
+\begin_layout Standard
+טעות מסוג שני, פחות חמורה - 
+\begin_inset Formula $FN$
+\end_inset
+
+ -סיווגתי מייל ספאם כלא ספאם.
+ )קיבלתי בטעות ספאם(.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $\begin{pmatrix}w\\
+b
+\end{pmatrix}=v$
+\end_inset
+
+ בהתאם לנוסחה ונקבל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\underset{s.t\ \forall i,\ y_{i}(<w,x_{i}>+b)\geq1}{\underset{(w,b)}{argmin}||w||^{2}} & \overset{*}{=}\\
+\underset{s.t\ \begin{pmatrix}(y_{1}x_{1}) & y_{1}\\
+. & .\\
+. & .\\
+(y_{m}x_{m}) & y_{m}
+\end{pmatrix}\begin{pmatrix}w\\
+b
+\end{pmatrix}\geq\begin{pmatrix}1\\
+.\\
+.\\
+1
+\end{pmatrix}}{\underset{(w,b)}{argmin}\begin{pmatrix}w\\
+b
+\end{pmatrix}^{T}I\begin{pmatrix}w\\
+b
+\end{pmatrix}} & =\\
+\underset{s.t\ -\begin{pmatrix}(y_{1}x_{1}) & y_{1}\\
+. & .\\
+. & .\\
+(y_{m}x_{m}) & y_{m}
+\end{pmatrix}\begin{pmatrix}w\\
+b
+\end{pmatrix}\leq\begin{pmatrix}1\\
+.\\
+.\\
+1
+\end{pmatrix}}{\underset{(w,b)}{argmin}\frac{1}{2}\begin{pmatrix}w\\
+b
+\end{pmatrix}^{T}2I\begin{pmatrix}w\\
+b
+\end{pmatrix}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן קיבלנו 
+\begin_inset Formula $A=\begin{pmatrix}(y_{1}x_{1}) & y_{1}\\
+. & .\\
+. & .\\
+(y_{m}x_{m}) & y_{m}
+\end{pmatrix},Q=2I,\ a=0,\ d=\begin{pmatrix}1\\
+.\\
+.\\
+1
+\end{pmatrix}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\end_layout
+
+\begin_layout Standard
+ניתן להמיר את הבעיה לצורה האלטרנטיבית מכיוון שמציאת מינ' על פני 
+\begin_inset Formula $w,\xi_{i}$
+\end_inset
+
+ שקול, נראה זאת בכך שעבור 
+\begin_inset Formula $w$
+\end_inset
+
+ מסויים המני' של 
+\begin_inset Formula $\xi_{i}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תחת האילוצים שהוא אי שלילי וצריך להתקיים 
+\begin_inset Formula $y_{i}<w,x_{i}>\geq1-\xi_{i}$
+\end_inset
+
+ נקבל שבמידה ו-
+\begin_inset Formula $y_{i}<w,x_{i}>\geq1$
+\end_inset
+
+ ההשמה האופט' עבור 
+\begin_inset Formula $\xi_{i}$
+\end_inset
+
+ היא 
+\begin_inset Formula $\xi_{i}=0$
+\end_inset
+
+.
+ אבל עבור המקרה 
+\begin_inset Formula $y_{i}<w,x_{i}><1$
+\end_inset
+
+ ההשמה הטובה ביותר היא 
+\begin_inset Formula $\xi_{i}=1-y_{i}<w,x_{i}>$
+\end_inset
+
+ על מנת לשמר את האילוץ בצורה ההדוקה ביותר.
+ לכן נקבל שהצורה האלטרנטיבית היא שקולה לצורה המקורית מכיוון שפונק' 
+\begin_inset Formula $l^{hing}$
+\end_inset
+
+ מביאה למינ' את 
+\begin_inset Formula $\xi_{i}$
+\end_inset
+
+ תחת האילוצים שלו.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+9
+\end_layout
+
+\begin_layout Standard
+תרשים פיזור נקודות מוגרלות עבור מדגם אימון בגודל 
+\begin_inset Formula $m$
+\end_inset
+
+, יחד איתו על-המישור המתאים לכל מודל.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Q9.png
+	width 60page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\end_layout
+
+\begin_layout Standard
+התרשים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Q10.png
+	width 50page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+11
+\end_layout
+
+\begin_layout Standard
+ניתן לראות ש-
+\begin_inset Formula $SVM$
+\end_inset
+
+ הצליח יותר, זאת מכיוון שהוא מתאים את עצמו בצורה טובה יותר כאשר ממקסם את
+ ה-
+\begin_inset Formula $margin$
+\end_inset
+
+ בשונה מה-
+\begin_inset Formula $Perceptron$
+\end_inset
+
+ שמתאים את הקו הראשון שמצליח לחלק את הדאטה.
+ ה-
+\begin_inset Formula $LDA$
+\end_inset
+
+ הצליח פחות משניהם מכיוון שמניח שהדאטה שמייצר את
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הלייבל מגיע מהתפלגות נורמלית שונה כל אחד, אך במקרה זה הוא מגיע מהתפלגות
+ יחידה.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+14
+\end_layout
+
+\begin_layout Standard
+התרשים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Q14.png
+	width 50page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר ארבעת המודלים מומשו בעזרת ספריית 
+\begin_inset Formula $sklearn$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $Soft-SVM$
+\end_inset
+
+ בחרתי בפרמטר רגולציה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+, 
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $kNeighborsClassifier$
+\end_inset
+
+ בחרתי ב-
+\numeric on
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שכנים,
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $DecisionTreeClassifier$
+\end_inset
+
+ בחרתי בעומק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקסימלי.
+\end_layout
+
+\begin_layout Standard
+זמני הריצה הם: 
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $LogisticRegression$
+\end_inset
+
+: 
+\begin_inset Formula $5.23$
+\end_inset
+
+ שניות
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $SVC$
+\end_inset
+
+: 
+\begin_inset Formula $9.51$
+\end_inset
+
+ שניות
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $4-NeighborsClassifier$
+\end_inset
+
+: 
+\begin_inset Formula $17.60$
+\end_inset
+
+ שניות
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $DecisionTreeClassifier$
+\end_inset
+
+: 
+\begin_inset Formula $1.87$
+\end_inset
+
+ שניות
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ניתן לראות שלעץ עם עומק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ לקח הכי מעט זמן מכיוון שהאימון שלו מהיר וגם הסיווג בעומק שכזה.
+\end_layout
+
+\begin_layout Standard
+לעומת זאת מודל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $4-NeighborsClassifier$
+\end_inset
+
+ לקח הכי הרבה זמן וזאת מכיוון שתהליך סיווג כל תצפית אינו פשוט בהשוואה לאחרים.
+\end_layout
+
+\begin_layout Standard
+ל-
+\begin_inset Formula $SVC$
+\end_inset
+
+ לקח יותר זמן בהשוואה ל 
+\begin_inset Formula $LogisticRegression$
+\end_inset
+
+, יתכן שבעקבות תהליך האימון שדורש מציאת על-מישור.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,2719 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "Times New Roman"
+\font_sans "default" "Times New Roman"
+\font_typewriter "default" "Times New Roman"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset Formula $IML$
+\end_inset
+
+, תרגיל
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+
+\begin_inset Newline newline
+\end_inset
+
+מגיש: אבי כוגן, ת.ז:
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+205417710
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $X\in R^{m\times d}$
+\end_inset
+
+ צ
+\begin_inset Quotes erd
+\end_inset
+
+ל: 
+\begin_inset Formula $Ker(X)=Ker(X^{T}X)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Ker(X)\subset Ker(X^{T}X)$
+\end_inset
+
+: יהי 
+\begin_inset Formula $v\in Ker(X)\subseteq R^{d}$
+\end_inset
+
+ לכן מתקיים 
+\begin_inset Formula $v\in ker(X^{T}X)\Leftarrow X^{T}Xv=X^{T}\underline{0}=\underline{0}\Leftarrow Xv=\underline{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Ker(X)\supset Ker(X^{T}X)$
+\end_inset
+
+: יהי 
+\begin_inset Formula $v\in Ker(X^{T}X)\subseteq R^{d}$
+\end_inset
+
+ לכן מתקיים 
+\begin_inset Formula $X^{T}Xv=\underline{0}\Rightarrow v^{T}X^{T}Xv=||Xv||=0\Leftrightarrow Xv=0\Leftrightarrow v\in Ker(x)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $A\in R^{n\times n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $:Im(A^{T})\subseteq Ker(A)^{\perp}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $v\in Im(A^{T})$
+\end_inset
+
+ אזי קיים 
+\begin_inset Formula $u\in R^{n}$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $A^{T}u=v$
+\end_inset
+
+.
+ יהי 
+\begin_inset Formula $w\in Ker(A)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נקבל ש 
+\begin_inset Formula $v\in Ker(A)^{\perp}\Leftarrow<v,w>=<A^{T}u,w>=(A^{T}u)^{T}w=yAw=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת מתקיים 
+\begin_inset Formula 
+\begin{align*}
+dim(Im(A^{T}))\overset{\text{הדרגה שווה לדרגת המשוחלפת}}{=}dim(Im(A))\overset{\text{משפט המימדים}}{=}\\
+n-dim(Ker(A))\overset{\text{משלים אורתוגונלי של הגרעין}}{=}dim(Ker(A)^{\perp})
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיבלנו הכלה ושוויון מימדים לכן מתקיים 
+\begin_inset Formula $Im(A^{T})=Ker(A)^{\perp}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+נתון שהמטריצה 
+\begin_inset Formula $X$
+\end_inset
+
+ אינה הפיכה, לכן יש לה אינסוף פתרונות או
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+פתרונות.
+\end_layout
+
+\begin_layout Standard
+לכן נקבל שלממ
+\begin_inset Quotes erd
+\end_inset
+
+ל יש אינסוף פתרונות אם
+\begin_inset Quotes erd
+\end_inset
+
+ם 
+\begin_inset Formula $y\in Im(A)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+מכיוון שהוכחנו בשאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שמתקיים 
+\begin_inset Formula $Im(X)=Ker(X^{T})^{\perp}$
+\end_inset
+
+, נקבל שמתקיים 
+\begin_inset Formula $y\in Im(X)\Leftrightarrow y\in Ker(X^{T})^{\perp}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Standard
+נחלק למקרים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X^{T}X$
+\end_inset
+
+ הפיכה: נקבל שקיים פתרון יחיד 
+\begin_inset Formula $w=(X^{T}X)X^{T}y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X^{T}X$
+\end_inset
+
+ לא הפיכה: מתקיים 
+\begin_inset Formula $X^{T}X$
+\end_inset
+
+ ריבועית ולכן מהשאלות הקודמות:
+\end_layout
+
+\begin_layout Standard
+למשוואות הנורמליות יש אינסוף פתרונות אם
+\begin_inset Quotes erd
+\end_inset
+
+ם 
+\begin_inset Formula $X^{T}y\perp Ker((X^{T}X)^{T})=Ker(X^{T}X)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ראינו משאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שמתקיים 
+\begin_inset Formula $Ker(X^{T}X)=Ker(X)$
+\end_inset
+
+.
+ לכן צ
+\begin_inset Quotes erd
+\end_inset
+
+ל 
+\begin_inset Formula $X^{T}y\perp Ker(X)$
+\end_inset
+
+.
+ יהי 
+\begin_inset Formula $v\in Ker(X)$
+\end_inset
+
+ אזי מתקיים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $<X^{T}y,v>=y^{T}Xv=y^{T}v\Rightarrow X^{T}y\perp Ker(X^{T}X)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Standard
+א.
+ מהגדרה מתקיים 
+\begin_inset Formula $P\in R^{d\times d}$
+\end_inset
+
+, ומתקיים 
+\begin_inset Formula $[P]_{ij}=\Sigma_{t=1}^{k}[v_{t}]_{i}[v_{t}]_{j}=\Sigma_{t=1}^{k}[v_{t}]_{j}[v_{t}]_{i}=[P]_{ji}$
+\end_inset
+
+.
+ כאשר 
+\begin_inset Formula $[v_{t}]_{i}$
+\end_inset
+
+ הוא האיבר במקום ה-
+\begin_inset Formula $i$
+\end_inset
+
+ של הוקטור בסיס 
+\begin_inset Formula $v_{t}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ב.
+ נתון 
+\begin_inset Formula $(v_{1},..,v_{k})$
+\end_inset
+
+ בסיס אותנורמלי של 
+\begin_inset Formula $V$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+מלינארית
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+, קיים 
+\begin_inset Formula $V^{\perp}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $(v_{k+1},..,v_{d})$
+\end_inset
+
+ הבסיס האותונורמלי של המשלים האורתוגונלי.
+ 
+\end_layout
+
+\begin_layout Standard
+מתקיים 
+\begin_inset Formula $V^{\perp}\oplus V=R^{d}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $(v_{1},..,v_{k},v_{k+1},..,v_{d})$
+\end_inset
+
+ הוא בסיס אורתונורמלי של 
+\begin_inset Formula $R^{d}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נמצא את הע
+\begin_inset Quotes erd
+\end_inset
+
+ע:
+\end_layout
+
+\begin_layout Standard
+נחלק למקרים:
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ לכל 
+\begin_inset Formula $v_{j}\in(v_{1},..,v_{k})\subseteq V$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $Pv_{j}=\Sigma_{i=1}^{k}(v_{i}v_{i}^{T})v_{j}=\Sigma_{i=1}^{k}v_{i}(v_{i}^{T}v_{j})\stackrel{*}{=}\Sigma_{i=1}^{k}v_{i}\delta_{i,j}\stackrel{}{=}v_{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+* בסיס אותנורמולי, כאשר 
+\begin_inset Formula $\delta_{i,j}=\begin{cases}
+1 & i=j\\
+0 & o.w
+\end{cases}$
+\end_inset
+
+.
+ קיבלנו שכל 
+\begin_inset Formula $v_{j}\in(v_{1},..,v_{k})$
+\end_inset
+
+ הוא ו
+\begin_inset Quotes erd
+\end_inset
+
+ע עם ע
+\begin_inset Quotes erd
+\end_inset
+
+ע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ לכל 
+\begin_inset Formula $v_{j}\in(v_{k+1},..,v_{d})\subseteq V$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $Pv_{j}=\Sigma_{i=1}^{k}(v_{i}v_{i}^{T})v_{j}=\Sigma_{i=1}^{k}v_{i}(v_{i}^{T}v_{j})\stackrel{*}{=}\Sigma_{i=1}^{k}v_{i}0\stackrel{}{=}0v_{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+* כל הוקטורים השייכים למשלים הניצב מאונכים לוקטורי הבסיס.
+ קיבלנו שכל 
+\begin_inset Formula $v_{j}\in(v_{k+1},..,v_{d})$
+\end_inset
+
+ הוא ו
+\begin_inset Quotes erd
+\end_inset
+
+ע עם ע
+\begin_inset Quotes erd
+\end_inset
+
+ע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיבלנו שמימדי המ
+\begin_inset Quotes erd
+\end_inset
+
+ע מקיימים 
+\begin_inset Formula $dim(V_{0})\geq k,\ dim(V_{1})\geq d-k$
+\end_inset
+
+אבל מצד שני מתקיים 
+\begin_inset Formula $dim(V_{0})+dim(V_{1})\leq dim(R^{d})=d$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+לכן נקבל 
+\begin_inset Formula $dim(V_{0})=k,\ dim(V_{1})=d-k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כעת מכיוון שקיבלנו 
+\begin_inset Formula $\Sigma_{\lambda\in\{0,1\}}dim(V_{\lambda})=dim(R^{d})$
+\end_inset
+
+ נסיק שאין עוד ע
+\begin_inset Quotes erd
+\end_inset
+
+ע כי אחרת נקבל שסכום מימדי המ
+\begin_inset Quotes erd
+\end_inset
+
+ע של הע
+\begin_inset Quotes erd
+\end_inset
+
+ע גדול ממימד 
+\begin_inset Formula $R^{d}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ג.
+ לכל 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $v=\Sigma_{i=1}^{k}a_{i}v_{i}$
+\end_inset
+
+ עבור 
+\begin_inset Formula $a_{i}\in R$
+\end_inset
+
+ לכל 
+\begin_inset Formula $i\in[k]$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+לכן נקבל 
+\begin_inset Formula 
+\begin{align*}
+Pv & =\Sigma_{i=1}^{k}v_{i}v_{i}^{T}v=\Sigma_{i=1}^{k}v_{i}v_{i}^{T}\Sigma_{j=1}^{k}a_{j}v_{j}=\Sigma_{i=1}^{k}v_{i}\Sigma_{j=1}^{k}a_{j}v_{i}^{T}v_{j}=\\
+= & \Sigma_{i=1}^{k}v_{i}\Sigma_{j=1}^{k}a_{j}\delta_{i,j}\stackrel{\Sigma_{j=1}^{k}a_{j}\delta_{i,j}=a_{i}}{=}\Sigma_{i=1}^{k}v_{i}a_{i}=v
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ד.
+ 
+\begin_inset Formula 
+\begin{align*}
+P^{2} & =\Sigma_{i=1}^{k}v_{i}v_{i}^{T}\Sigma_{j=1}^{k}v_{j}v_{j}^{T}=\Sigma_{i=1}^{k}v_{i}\Sigma_{j=1}^{k}v_{i}^{T}v_{j}v_{j}^{T}=\\
+= & \Sigma_{i=1}^{k}v_{i}\Sigma_{j=1}^{k}\delta_{i,j}v_{j}^{T}=\Sigma_{i=1}^{k}v_{i}v_{i}^{T}=P
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ה.
+ 
+\begin_inset Formula 
+\[
+(I-P)P=I\cdot P-P^{2}\stackrel{P^{2}=p}{=}P-P=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\end_layout
+
+\begin_layout Standard
+נתון 
+\begin_inset Formula $X^{T}X$
+\end_inset
+
+ הפיכה, כאשר 
+\begin_inset Formula $X^{\dagger}=V\Sigma^{\dagger}U^{T}$
+\end_inset
+
+, צ
+\begin_inset Quotes erd
+\end_inset
+
+ל: 
+\begin_inset Formula $X^{\dagger}=(X^{T}X)^{-1}X^{T}\stackrel{\text{שקול להוכיח}}{\Leftrightarrow}X^{\dagger}y=(X^{T}X)^{-1}X^{T}y$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+הוכחה: 
+\end_layout
+
+\begin_layout Standard
+נתון 
+\begin_inset Formula $X^{T}X$
+\end_inset
+
+ הפיכה, לכן 
+\begin_inset Formula $X\Leftarrow Ker(X)=Ker(X^{T}X)=\{0\}$
+\end_inset
+
+ הפיכה לכן כל הערכים הסינגולרים שלה 
+\begin_inset Formula $0<$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נקבל שעבור פירוק 
+\begin_inset Formula $SVD$
+\end_inset
+
+ של 
+\begin_inset Formula $X$
+\end_inset
+
+: 
+\begin_inset Formula $X=U\Sigma V^{T}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $\Sigma^{\dagger}=\Sigma^{-1}$
+\end_inset
+
+ כי 
+\begin_inset Formula $X$
+\end_inset
+
+ הפיכה ולכן גם 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ הפיכה.
+ מכך נקבל שמתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+(X^{T}X)^{-1}X & =((U\Sigma V^{T})^{T}U\Sigma V^{T})^{-1}(U\Sigma V^{T})=(V\Sigma^{T}U^{T}U\Sigma V^{T})^{-1}V\Sigma^{T}U^{T}\stackrel{U^{T}U=I,\ \Sigma^{T}=\Sigma}{=}\\
+= & (V\Sigma\Sigma V^{T}){}^{-1}V\Sigma U^{T}=(V^{T})^{-1}(\Sigma^{2})^{-1}\cancel{(V)^{-1}V}\Sigma U^{T}\stackrel{*}{=}\\
+= & V\Sigma^{-1}U^{T}\stackrel{\Sigma^{T}=\Sigma}{=}V(\Sigma^{T})^{-1}U^{T}\stackrel{(\Sigma^{T})^{-1}=\Sigma^{\dagger}}{=}V\Sigma{}^{\dagger}U^{T}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+7
+\end_layout
+
+\begin_layout Standard
+צ״ל: 
+\begin_inset Formula $X^{T}X$
+\end_inset
+
+ הפיכה 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $span(x_{1},..,x_{m})=R^{d}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+הוכחה: 
+\begin_inset Formula 
+\begin{align*}
+\text{ הפיכה}\ X^{T}X\in R^{d\times d}\Leftrightarrow Ker(X^{T}X)=\{0\}\Leftrightarrow Ker(X)=\{0\}\Leftrightarrow\\
+\Leftrightarrow dim(Im(X))\stackrel{d<m}{=}dim(R^{d})\Leftrightarrow dim(Im(X))=dim(Im(X^{T}))\Leftrightarrow\\
+Im(X^{T})=span(x_{1},..,x_{m})=R^{d}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+8
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $X^{T}X$
+\end_inset
+
+ לא הפיכה צ
+\begin_inset Quotes erd
+\end_inset
+
+ל: 
+\begin_inset Formula $\forall\bar{w}\in\{\text{פתרונות למשוואות הנורמליות}\}\ ||\hat{w}||=||X^{\dagger}y||\leq||w||$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הוכחה: 
+\begin_inset Formula $X^{T}X$
+\end_inset
+
+ לא הפיכה, לכן נניח 
+\begin_inset Formula $rank(X^{T}X)=k<d$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+ראינו בהרצאה ש-
+\begin_inset Formula $\hat{w}$
+\end_inset
+
+ הוא תמיד פתרון של המשוואה.
+ 
+\end_layout
+
+\begin_layout Standard
+מכיוון ש-
+\begin_inset Formula $rank(X^{T}X)=k$
+\end_inset
+
+ נסיק שישנם 
+\begin_inset Formula $k$
+\end_inset
+
+ ערכים סינגולרים כאשר 
+\begin_inset Formula $\hat{w_{i}}$
+\end_inset
+
+ מתאים לערך הסינגולרי ה-
+\begin_inset Formula $i$
+\end_inset
+
+ של 
+\begin_inset Formula $X$
+\end_inset
+
+ לכל 
+\begin_inset Formula $i\in[k]$
+\end_inset
+
+ וזהו הפתרון היחיד המתאים להם ונגדיר לכל 
+\begin_inset Formula $i\in\{k+1,..,d\}$
+\end_inset
+
+ 
+\begin_inset Formula $\hat{w_{i}}=0$
+\end_inset
+
+ המתאים לערכי ה-
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+על האלכסון של 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נקבל שכל פתרון אחר 
+\begin_inset Formula $\bar{w}\in\{\text{פתרונות למשוואות הנורמליות}\}$
+\end_inset
+
+ יקיים 
+\begin_inset Formula $\bar{w_{i}}=\hat{w_{i}}$
+\end_inset
+
+ על מנת לקיים את הפתרון המתאים לערך הסינגולרי ה-
+\begin_inset Formula $i$
+\end_inset
+
+ לכל 
+\begin_inset Formula $i\in[k]$
+\end_inset
+
+ )כאשר אני מניח בה
+\begin_inset Quotes erd
+\end_inset
+
+כ שהערכים הסינגולרים מסודרים מהגדול לקטן על האלכסון, אחרת נתאים את הערכים
+ בהתאם למיקום על האלכסון(.
+\end_layout
+
+\begin_layout Standard
+נקבל שהאיברים האחרים ב-
+\begin_inset Formula $\bar{w}$
+\end_inset
+
+ אינם תלויים בערכים הסינגולרים ולכן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+||\bar{w}||=\Sigma_{i=1}^{d}\bar{w_{i}}^{2}=\Sigma_{i=1}^{k}\bar{w_{i}}^{2}+\Sigma_{i=k+1}^{d}\bar{w_{i}}^{2}\leq\Sigma_{i=1}^{k}\bar{w_{i}}^{2}=\Sigma_{i=1}^{k}\hat{w_{i}}^{2}=||\hat{w}||
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלות
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+9-11
+\end_layout
+
+\begin_layout Standard
+מימוש בקובץ קוד.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+12
+\end_layout
+
+\begin_layout Standard
+מימוש בקובץ קוד, הסבר:
+\end_layout
+
+\begin_layout Standard
+בשלב ה-
+\begin_inset Formula $preproccesing$
+\end_inset
+
+ הורדתי תצפיות עם ערכים חריגים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $price\leq0$
+\end_inset
+
+ - מתוך הנחה שבית לא נמכר בחינם או במחיר שלילי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $bedrooms\leq0$
+\end_inset
+
+ - מכיוון שלא יתכן בית ללא חדרים )זה לא בית( או מספר חדרים שלילי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $bathrooms<0$
+\end_inset
+
+ - מכיוון שלא יתכן מספר חדרי שירותים שלילי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $sqft\_living\leq0$
+\end_inset
+
+ - לא יתכן ששטח של בית יהיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+או שלילי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $sqft\_lot\leq0$
+\end_inset
+
+ - לא יתכן ששטח האדמה של בית יהיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+או שלילי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $sqft\_above\leq0$
+\end_inset
+
+ - לא יתכן שהשטח מעל האדמה יהיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+או שלילי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $yr\_built\leq0$
+\end_inset
+
+ - לא יתכן ששנת הבנייה תהיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+או שלילית )אמריקה התגלת ב-
+\numeric on
+1492
+\numeric off
+(.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $floors\leq0$
+\end_inset
+
+ - לא יתכן שמספר הקומות בבית יהיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+או שלילי, לכל הפחות ישנה קומה אחת.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $sqft\_living15\leq0$
+\end_inset
+
+ - לא יתכן שהשטח של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+15
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+השכנים הקרובים ביותר של הבית יהיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+או שלילי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $sqft\_lot15\leq0$
+\end_inset
+
+ - לא יתכן ששטח האדמה של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+15
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+השכנים הקרובים ביותר של הבית יהיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+או שלילי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $yr\_renovated<0$
+\end_inset
+
+ - לא יתכן ששנת השיפוץ תתהיה שלילית.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $sqft\_basement<0$
+\end_inset
+
+ - לא יתכן ששטח מרתף יהיה שלילי.
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $waterfront,view,condition,grade$
+\end_inset
+
+ נבדק שהערכים בהתאם לטווח כפי שמוגדר בתיאור הדאטה.
+\end_layout
+
+\begin_layout Standard
+לא בוצע שינוי ב-
+\begin_inset Formula $lat,long$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+שיניתי את התאריכים כך שיתקיים ביניהם יחס סדר בעזרת שינוי התאריך למספר שהוא
+ מספר היום מאז התאריך 
+\begin_inset Formula $1/1/01$
+\end_inset
+
+.
+ התאריכים הושארו כי יתכן שקיימת מגמה במחירי הדירות לאורך זמן )על אף שבשאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+17
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ניתן היה לראות שהקורולציה בין התאריכים למחיר היא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+(.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+13
+\end_layout
+
+\begin_layout Standard
+מימוש בקובץ קוד, הסבר:
+\end_layout
+
+\begin_layout Standard
+משתנים קטגורים - 
+\begin_inset Formula $id,zipcode$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מחקתי את עמודת 
+\begin_inset Formula $id$
+\end_inset
+
+ מכיוון שאינה צריכה להשפיע על מחיר הדירה, מדובר רק במזהה בקובץ הדאטה.
+\end_layout
+
+\begin_layout Standard
+פרקתי את עמודת 
+\begin_inset Formula $zipcode$
+\end_inset
+
+ בהתאם לעקרון 
+\begin_inset Formula $hot-code$
+\end_inset
+
+ כיוון שלמיקום יכולה להיות השפעה על מחיר הדירה.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+14
+\end_layout
+
+\begin_layout Standard
+מימוש בקובץ הקוד.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+15
+\end_layout
+
+\begin_layout Standard
+מהערכים הסינגולרים ניתן להעריך את דרגת המטריצה - כמספר הערכים הגדולים ממש
+ מ-
+\numeric on
+0
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+במקרה של המטריצה שמתקבלת מעיבוד קובץ הדאטה של הבתים, אין ערכים שהם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אבל הערך הקטן ביותר הוא 
+\begin_inset Formula $5.23189236e-11\approx5.23\cdot10^{-11}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+ומכיוון שזהו ערך קטן מאוד 
+\begin_inset Quotes eld
+\end_inset
+
+הדרגה האפקטיבית
+\begin_inset Quotes erd
+\end_inset
+
+ של המטריצה אינה מלאה אך היא אכן קרובה להפיכות מכיוון שישנו רק ערך אחד קטן
+ מאוד.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+28
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הערכים הסינגולרים הקטנים ביותר הם:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename last_singulars.png
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תרשים ה-
+\begin_inset Formula $scree-plot$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/avikogan/Desktop/intro/PYCHARM_Projects/ex_2_Avi_Kogan/scree_plot
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+16
+\end_layout
+
+\begin_layout Standard
+ניתן לראות שכפי שניתן לצפות ה-
+\begin_inset Formula $MSE$
+\end_inset
+
+ יורד ככל שהמודל מאומן על כמות גדולה יותר של תצפיות.
+\end_layout
+
+\begin_layout Standard
+בנוסף יש חוסר עקביות כאשר המודל מאומן על כמות דאטה קטנה מכיוון שלכל תצפית
+ יש השפעה גדולה על החיזוי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/avikogan/Desktop/intro/PYCHARM_Projects/ex_2_Avi_Kogan/MSE
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+17
+\end_layout
+
+\begin_layout Standard
+הפיצ'ר שלדעתי מועיל למודל הוא 
+\begin_inset Formula $"sqft\_living"$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+באופן טבעי ניתן להסיק שגודל הבית ישפיע בצורה ישירה על מחיר הדירה וניתן לראות
+ זאת בקורולציה הגבוהה ביניהם.
+\end_layout
+
+\begin_layout Standard
+התרשים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/avikogan/Desktop/intro/PYCHARM_Projects/ex_2_Avi_Kogan/sqft
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הפיצ'ר שלדעתי אינו מועיל הרבה למודל הוא 
+\begin_inset Formula $"date"$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+ציר ה-
+\begin_inset Formula $x$
+\end_inset
+
+ מייצג את מספר היום החל מתאריך 
+\begin_inset Formula $1/1/01$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ניתן לראות בתרשים ששינוי בתאריך אינו מיצר מגמה כלשהי ביחס למחיר, כאשר ניתן
+ לראות זאת גם בקורולציה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ביניהם, כלומר אין קורולציה ביניהם.
+\end_layout
+
+\begin_layout Standard
+התרשים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/avikogan/Desktop/intro/PYCHARM_Projects/ex_2_Avi_Kogan/date
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
